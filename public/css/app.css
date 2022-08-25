@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+    background: #e0e5ec;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-custom {
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-custom:hover,
+.btn-custom:active {
+    opacity: 0.8;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+        inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom.add {
+    color: #79e3b6;
+}
+.btn-custom.edit {
+    color: #799be3;
+}
+.btn-custom.delete {
+    color: #cf4a4a;
+}
+.btn-custom.submit {
+    color: #47b94d;
+}
+
+.table {
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+    border-radius: 10px;
+}
+
+.form-label {
+    margin-bottom: 0.1rem;
+}
+
+.badge.bg-danger {
+    background-color: #cf4a4a !important;
+}
+.badge.bg-success {
+    background-color: #64c569 !important;
+}
